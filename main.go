@@ -65,7 +65,7 @@ func main() {
 	for{
 		ifNewPin()
 		offset := rand.Intn(20) - 10
-		time.Sleep(time.Duration(30+offset)*time.Second)
+		time.Sleep(time.Duration(60+offset)*time.Second)
 	}
 
 }
