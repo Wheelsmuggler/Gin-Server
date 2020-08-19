@@ -1,14 +1,14 @@
 package main
 
-var UserMail = "2323864743@qq.com"
+var UserMail = "XXXXXXXXX@qq.com"
 var MailSmtpPort = ":587"
-var AuthCode	="poetdojvqkmjdiag"
+var AuthCode	="XXXXXXXXXXXXXX"
 var MailSmtpHost = "smtp.qq.com"
 
 
-var MailTo = "2072296409@qq.com"
+var MailTo = "XXXXXXXXXX@qq.com"
 var MailSubject = "New Ping"
-var MailBody	= "jfklsajdlka"
+var MailBody	= "XXXXXXXXXXXXX"
 
 
 var UrlReply = "https://localhost:8080/reply"
