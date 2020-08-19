@@ -54,7 +54,7 @@ func ifNewPin() {
 			_ = SendMail()
 			pings = num
 		}else {
-
+			log.Println("\nno new Ping\n")
 		}
 	})
 
