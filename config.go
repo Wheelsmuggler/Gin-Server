@@ -12,7 +12,7 @@ var MailBody	= "jfklsajdlka"
 
 
 var UrlReply = "https://localhost:8080/reply"
-
+var UrlPing = "http://localhost:8080/newping"
 var UrlZhihu = "https://www.zhihu.com/people/li-jian-qiu/pins"
 
 

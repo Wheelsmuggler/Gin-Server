@@ -47,7 +47,7 @@ func ifNewPin() {
 					log.Println(txt)
 					values := map[string]string{"txt":txt}
 					jsonValue,_ := json.Marshal(values)
-					_, _ = http.Post("http://localhost:8080/newping", "application/json", bytes.NewReader(jsonValue))
+					_, _ = http.Post(UrlPing, "application/json", bytes.NewReader(jsonValue))
 				}
 
 			})
